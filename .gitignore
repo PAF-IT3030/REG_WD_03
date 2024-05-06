@@ -1,0 +1,27 @@
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore build artifacts
+target/
+build/
+
+# Ignore generated files
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Ignore application properties files
+application.properties
+application.yml
+
+# Ignore Spring Boot generated files
+spring-boot-starter-logging/
+spring-boot-starter-parent/
+spring-boot-starter-web/
+
+# Ignore Maven specific files
+mvnw
+mvnw.cmd
